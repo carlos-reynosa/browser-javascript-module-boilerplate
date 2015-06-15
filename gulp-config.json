@@ -1,0 +1,12 @@
+{
+  "directories":{
+   "source" :"src",
+    "min": "dist",
+    "cwd":"."
+  },
+  "fileNames":{
+    "source":"module.js",
+    "min": "module.min.js"
+  }
+
+}
