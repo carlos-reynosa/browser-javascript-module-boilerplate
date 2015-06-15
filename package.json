@@ -1,5 +1,5 @@
 {
-  "name": "gulp-js-module-experiment",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Carlos E. Reynosa Nunez",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-jshint": "^1.11.0",
