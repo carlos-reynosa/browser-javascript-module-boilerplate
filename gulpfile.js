@@ -51,7 +51,7 @@ gulp.task('test', ['lint'], function (done) {
  * Tries to minify and optimize the module code. Checks if the module has any errors in style or code
  * before ouputing the minified version.
  */
-gulp.task('minify', ['lint', 'test'], function () {
+gulp.task('uglify',  function () {
     return gulp.src(sourcePath)
         .pipe(gulp.dest('.'))
         .pipe(uglify())
@@ -59,6 +59,7 @@ gulp.task('minify', ['lint', 'test'], function () {
         .pipe(gulp.dest(distDirectory))
         .pipe(gulp.dest('.'));
 });
+
 
 /**
  *Checks the module code for style and code errors.
@@ -73,7 +74,7 @@ gulp.task('lint', function () {
 
 });
 
-gulp.task('build', ['test', 'minify', 'lint'], function () {
+gulp.task('build', ['test', 'uglify', 'lint'], function () {
 
 
 });
