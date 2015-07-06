@@ -16,6 +16,6 @@ the file name within the `gulp-config.json` configuration.
 4. Run the build Gulp task which lints, tests, and uglifies the module. 
     * `gulp build`
     
-Once you have successfully run the build Gulp task, the final uglified and original module source files should apear
+Once you have successfully run the build Gulp task, the final uglified (module.min.js or dist/module.min.js) and original module (module.js) source files should appear 
 within the root of the project directory and within the `dist` folder. 
 
