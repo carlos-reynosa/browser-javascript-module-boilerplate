@@ -1,7 +1,7 @@
 # Browser JavaScript Module Boilerplate
 
 This repository contains boilerplate files and tool configurations that aim to simplify the process of
-implementing and testing single JavaScript browser based module. 
+starting a project to implement a single JavaScript browser based module. 
 
 ##Quick Start
 
